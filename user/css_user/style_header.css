@@ -1,0 +1,21 @@
+.container-logo{
+    text-align: left;
+    width:  150px;
+}
+
+.container-menu{
+    text-align: right;
+    width: 150px;
+}
+
+.header_menu {
+    text-align: right;
+    background: white;
+    font-size: 20px;
+}
+
+.header_logo{
+    padding: auto;
+    background: white;
+    font-size: 20px;
+}
