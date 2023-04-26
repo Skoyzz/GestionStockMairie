@@ -26,11 +26,13 @@ Le compte utilisateur (alias stagiaire), pourra effectuer **uniquement** ajouter
 ---
 
 2. La base de donnée (BDD) :
+
 La base de donnée est nommée : "gestion_stock_st_martin" qui dispose de plusieurs tables.
+
 - Une table "user" où sera répertorier les utilisateurs avec les mots de passe haché
 
 - Une table "materiel' où sera répertorier tous les stocks, ces stocks seront différencier par le "tag_appareil".
-La base de données est relationelle, pour éviter la répetition, la relationelle des tables se fait via des int. (l'id)
+La base de données est relationelle, pour éviter la répetition de données, la relationelle des tables se fait via des int. (l'id)
 
 - Les tables relationelle sont : type_appareil, marque, site, processeur, disque_dur qui sont reliée avec la table materiel
 ---
